@@ -1351,6 +1351,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Head: {fileID: 2781748221695199092}
+  Skull: {fileID: 8297036762509699678, guid: b5beea1912bbdfe47a6fabb9deab1cfb, type: 3}
+  SkullPos: {fileID: 943533068}
+  SkullPosParent: {fileID: 3833187325352098542}
+  Character: {fileID: 5579905701567595034}
   Finish: 0
   FocusAnimEnd: 0
 --- !u!1 &5618195914743152931

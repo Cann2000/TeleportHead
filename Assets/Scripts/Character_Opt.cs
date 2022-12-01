@@ -6,6 +6,10 @@ public class Character_Opt : MonoBehaviour
 {
     [SerializeField] GameObject Head;
 
+    [SerializeField] GameObject Skull;
+    [SerializeField] Transform SkullPos;
+    [SerializeField] GameObject SkullPosParent;
+
     Animator anim;
 
     public bool Finish;
@@ -15,6 +19,9 @@ public class Character_Opt : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
+
+        CameraOpt.Instance.CamStartPos();
+        CameraOpt.Instance.CameraFowUpdateDown();
     }
 
     void Update()
@@ -30,7 +37,7 @@ public class Character_Opt : MonoBehaviour
 
             if (!FocusAnimEnd)
             {
-                Level_Opt.Instance.CameraFowUpdateDown();
+                CameraOpt.Instance.CameraFowUpdateDown();
 
             }
         }
@@ -40,13 +47,17 @@ public class Character_Opt : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
 
-        Level_Opt.Instance.SkullSpawn();
-        Head.transform.localScale = new Vector3(0, 0, 0);
+        SkullSpawn();
+        Head.transform.localScale = Vector3.zero;
 
         FocusAnimEnd = true;
 
     }
-
+    public void SkullSpawn()
+    {
+        GameObject SkullClone = Instantiate(Skull, SkullPos.position, Quaternion.identity);
+        SkullClone.transform.SetParent(SkullPosParent.transform);
+    }
     public void CharacterPos(Transform SkullPos,Quaternion CharacterRot)
     {
         transform.position = SkullPos.position;
@@ -67,19 +78,10 @@ public class Character_Opt : MonoBehaviour
         }
         if (collision.transform.CompareTag("FinishPoint"))
         {
-            Level_Opt.Instance.Invoke(nameof(Level_Opt.Instance.LevelTrue), 2);
+            CameraOpt.Instance.Invoke(nameof(CameraOpt.Instance.LevelTrue), 2);
             Finish = true;
             Physics.gravity = new Vector3(0, -10, 0);
         }
     }
 
-    private void OnCollisionStay(Collision collision)
-    {
-        //if (collision.transform.CompareTag("FinishPoint"))
-        //{
-        //    Level_Opt.Instance.Invoke(nameof(Level_Opt.Instance.LevelTrue), 2);
-        //    Finish = true;
-        //    Physics.gravity = new Vector3(0, -10, 0);
-        //}
-    }
 }

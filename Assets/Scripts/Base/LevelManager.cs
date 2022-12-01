@@ -7,7 +7,7 @@ public class LevelManager : MonoBehaviour
 {
     [SerializeField] private List<Level> Levels = new();
 
-    [SerializeField] private int LevelIndex = 0;
+    public int LevelIndex;
 
     [SerializeField] private GameObject LoadPanel;
 
@@ -32,6 +32,7 @@ public class LevelManager : MonoBehaviour
             {
                 Scene scene = SceneManager.GetActiveScene();
                 SceneManager.LoadScene(scene.name);
+
             }
 
             return;
@@ -47,6 +48,9 @@ public class LevelManager : MonoBehaviour
         else
         {
             LoadPanel.SetActive(true);
+            Destroy(CurrentLevel, 1);
+            Invoke(nameof(ShowLoadPanel), 1);
+
         }
     }
 
@@ -57,7 +61,7 @@ public class LevelManager : MonoBehaviour
         if (Levels[LevelIndex]) CurrentLevel = Instantiate(Levels[LevelIndex].LevelPrefab) as GameObject;
     }
 
-    private void OnDisable()
+    public void LevelSave()
     {
         SaveData();
     }

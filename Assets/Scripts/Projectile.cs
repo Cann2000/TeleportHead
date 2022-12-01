@@ -5,7 +5,6 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     Camera cam;
-    float Horizontal;
 
     Vector3 CamPos;
 
@@ -73,7 +72,7 @@ public class Projectile : MonoBehaviour
                 rb.angularVelocity = Vector3.zero;
 
             }
-            if (rb.velocity.magnitude <= 1f)
+            if (rb.velocity.magnitude <= 1f && TouchedTheGround)
             {
                 rb.velocity = Vector3.zero;
 
@@ -92,7 +91,7 @@ public class Projectile : MonoBehaviour
             {
                 //Level_Opt.Instance.CameraFowUpdateDown();
                 cam.transform.localPosition = Vector3.Lerp(cam.transform.localPosition, CamPos, 5  * Time.deltaTime);
-                Level_Opt.Instance.Invoke("CameraFowUpdateDown", 0.2f);
+                CameraOpt.Instance.Invoke("CameraFowUpdateDown", 0.2f);
 
             }
         }
@@ -115,11 +114,11 @@ public class Projectile : MonoBehaviour
 
                 if (Physics.Raycast(camRay, out hit, Mathf.Infinity, layer))
                 {
-                    Level_Opt.Instance.Invoke("CameraFowUpdateUp", 0.3f);
+                    CameraOpt.Instance.Invoke("CameraFowUpdateUp", 0.3f);
 
                     Vector2 vo = CalculateVelocty(hit.point, transform.position, 1);
 
-                    Level_Opt.Instance.CameraOpt();
+                    CameraOpt.Instance.CameraMove();
 
                     Hitpos = -vo;
 
@@ -269,6 +268,14 @@ public class Projectile : MonoBehaviour
             GameManager.Instance.LevelState(false);
             Destroy(gameObject);
 
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.transform.CompareTag("Ground"))
+        {
+            TouchedTheGround = false;
         }
     }
 
