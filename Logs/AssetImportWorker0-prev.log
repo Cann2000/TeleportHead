@@ -15,7 +15,7 @@ C:/Users/muham/OneDrive/Masaüstü/TeleportHead-main
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51472
+55100
 Successfully changed project path to: C:/Users/muham/OneDrive/Masaüstü/TeleportHead-main
 C:/Users/muham/OneDrive/Masaüstü/TeleportHead-main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/muham/OneDrive/Masaüstü/TeleportHead-main
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 71.12 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 46.04 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,90 +63,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007010 seconds.
+Registered in 0.006249 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 83.16 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 43.25 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.678 seconds
+- Completed reload, in  0.591 seconds
 Domain Reload Profiling:
-	ReloadAssembly (679ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (592ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (479ms)
-			LoadAssemblies (88ms)
+		EndReloadAssembly (409ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (120ms)
+			SetupTypeCache (105ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (283ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (227ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (55ms)
+				InitializePlatformSupportModulesInManaged (52ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
+				RefreshPlugins (43ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005725 seconds.
+Registered in 0.004409 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 84.22 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.258 seconds
+- Completed reload, in  1.236 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1260ms)
-		BeginReloadAssembly (230ms)
+	ReloadAssembly (1237ms)
+		BeginReloadAssembly (236ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (131ms)
-		EndReloadAssembly (910ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (874ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
-			ReleaseScriptCaches (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (444ms)
+			SetupLoadedEditorAssemblies (366ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (236ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.44 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2341 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (1.4 MB). Loaded Objects now: 2806.
-Memory consumption went from 126.8 MB to 125.4 MB.
-Total: 8.189400 ms (FindLiveObjects: 0.327900 ms CreateObjectMapping: 0.191900 ms MarkObjects: 6.847000 ms  DeleteObjects: 0.820800 ms)
+Unloading 2020 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (55.8 KB). Loaded Objects now: 2495.
+Memory consumption went from 84.7 MB to 84.7 MB.
+Total: 3.050700 ms (FindLiveObjects: 0.226300 ms CreateObjectMapping: 0.129500 ms MarkObjects: 2.596300 ms  DeleteObjects: 0.097200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,324 +160,90 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6344.937046 seconds.
-  path: Assets/Levels
-  artifactKey: Guid(9cf24d3c7bed00c4290ee5ef9729878c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels using Guid(9cf24d3c7bed00c4290ee5ef9729878c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663d116237f66307984b87701a1b59d5') in 0.011358 seconds 
+  Time since last request: 14959.003004 seconds.
+  path: Assets/ObstacleCoursePack/Prefabs/WallMovable.prefab
+  artifactKey: Guid(1f9416082698e614ebb7003c2d80098b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ObstacleCoursePack/Prefabs/WallMovable.prefab using Guid(1f9416082698e614ebb7003c2d80098b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e797445daa8fc6fc0f69a102e797356c') in 0.150888 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.027884 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.015085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.856118 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201911e0eeadc12e3e1449ec43d60fc3') in 0.006761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.804596 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs
-  artifactKey: Guid(72423c0f1a93b483faf93b0f119ca07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs using Guid(72423c0f1a93b483faf93b0f119ca07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785399509ecdfe426457727fe72be173') in 0.006590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.079313 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 1.prefab
-  artifactKey: Guid(e320d8397ff7e47079372e53f3f72b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 1.prefab using Guid(e320d8397ff7e47079372e53f3f72b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86f9bcc971d05fcdeaf1cde44ed966e') in 0.381101 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 4.prefab
-  artifactKey: Guid(bf42f0ad7a63640f283f151f61de301f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 4.prefab using Guid(bf42f0ad7a63640f283f151f61de301f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb65832b88e371b967e31a5ad54a8a1') in 0.053610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 12.prefab
-  artifactKey: Guid(23d6ddb09ca264ff3a4ee1d50aa97ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 12.prefab using Guid(23d6ddb09ca264ff3a4ee1d50aa97ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2870a9722ed766b72ff3f3d42269bb8') in 0.028920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 14.prefab
-  artifactKey: Guid(77dd00955f24648a4b171a49aa0a9b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 14.prefab using Guid(77dd00955f24648a4b171a49aa0a9b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d63102daa8a0cb1fbb583a1e96cf51e') in 0.022062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 39.prefab
-  artifactKey: Guid(c5f3447babe7342b283d62158594c557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 39.prefab using Guid(c5f3447babe7342b283d62158594c557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b8b07f0c5fa48d8b423f37db17ef34') in 0.022049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 36.prefab
-  artifactKey: Guid(3d82bf05579344f48866d1e279db4309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 36.prefab using Guid(3d82bf05579344f48866d1e279db4309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4f1fb3d606343881f1eefdf0e5bb77') in 0.026663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 20.prefab
-  artifactKey: Guid(6f7bc31dc84624e07b539d01cbe45064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 20.prefab using Guid(6f7bc31dc84624e07b539d01cbe45064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3439581fd997e116beb3624b112adc7c') in 0.025050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 37.prefab
-  artifactKey: Guid(1d8b2b591076e4f4db4269acd93864f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 37.prefab using Guid(1d8b2b591076e4f4db4269acd93864f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83af601c6b7e4104c8de2f82c98ed669') in 0.021340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 18.prefab
-  artifactKey: Guid(b8c85d29ade854f17b1ddd8eeca81854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 18.prefab using Guid(b8c85d29ade854f17b1ddd8eeca81854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30121b63b0f6d889a9f4f7ec4301a37') in 0.021499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 33.prefab
-  artifactKey: Guid(ec24b1029b0474b3fa8c7fe4868f6f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 33.prefab using Guid(ec24b1029b0474b3fa8c7fe4868f6f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de83b8b313cf47f60d9ddd6e7060510') in 0.027750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 10_1.prefab
-  artifactKey: Guid(8abf8b3cd721648f698514a014121022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 10_1.prefab using Guid(8abf8b3cd721648f698514a014121022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a00305a5b5ea017b956684939de6a3') in 0.024052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 41.prefab
-  artifactKey: Guid(fe29c149a1b5c483b8bc69c7826b34fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 41.prefab using Guid(fe29c149a1b5c483b8bc69c7826b34fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917eda6c7ad6642c4be0ea2b4a1e1fc2') in 0.024163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 7.prefab
-  artifactKey: Guid(3200caa45e19744a3bf3edfe501243a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 7.prefab using Guid(3200caa45e19744a3bf3edfe501243a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106f1e52a67360dee758e8ac5418d7c6') in 0.020911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 13.prefab
-  artifactKey: Guid(9f7bd4babfcc74a4a8e915af7ec75856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 13.prefab using Guid(9f7bd4babfcc74a4a8e915af7ec75856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00687b000816eacff156ce4f7352868') in 0.022381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 21.prefab
-  artifactKey: Guid(ed490fed58813441b92cc21b960276a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 21.prefab using Guid(ed490fed58813441b92cc21b960276a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267746ca194eb2b16212bcb44b73fec8') in 0.022718 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 31.prefab
-  artifactKey: Guid(83693b61038c54412968c75bf4789079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 31.prefab using Guid(83693b61038c54412968c75bf4789079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60dc2897c2413fa4217351aec918836') in 0.022922 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/ObstacleCoursePack/Prefabs
+  artifactKey: Guid(0c05e4bbc57df5145937585c146846a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ObstacleCoursePack/Prefabs using Guid(0c05e4bbc57df5145937585c146846a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e87ab4bcbae17696179bcbf8dbc84a8') in 0.008680 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 3.prefab
-  artifactKey: Guid(b527f8899ba57461fbb0f1bd903ac65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 3.prefab using Guid(b527f8899ba57461fbb0f1bd903ac65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e06ba29cc7a486ca30f8e7aaef9b06') in 0.021285 seconds 
+  path: Assets/ObstacleCoursePack/Prefabs/MovableWall.prefab
+  artifactKey: Guid(474c64e7b6302304bb04e77a9e8809dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ObstacleCoursePack/Prefabs/MovableWall.prefab using Guid(474c64e7b6302304bb04e77a9e8809dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5fe745e3fd4b0c483cacc36bdac0f6') in 0.018001 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 35.prefab
-  artifactKey: Guid(41651c9b749c34d33b5a603ef94ba08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 35.prefab using Guid(41651c9b749c34d33b5a603ef94ba08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba0b6d670028eb1aaf928e17c5bd9dc') in 0.030585 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 25.prefab
-  artifactKey: Guid(9561f8d33423a4977992b0a71350e4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 25.prefab using Guid(9561f8d33423a4977992b0a71350e4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f225fd3a4ecb5f52a577fd0764f7de48') in 0.022858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 40.prefab
-  artifactKey: Guid(c1e68f36e53a048b9819dfdd3b1c4270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 40.prefab using Guid(c1e68f36e53a048b9819dfdd3b1c4270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5415e6efeed6c8710770e7d8edf268e3') in 0.024670 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/ObstacleCoursePack/Prefabs/Sphere.prefab
+  artifactKey: Guid(a3db52d569ccd3c468777dd8e04f65ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ObstacleCoursePack/Prefabs/Sphere.prefab using Guid(a3db52d569ccd3c468777dd8e04f65ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c05c86bd1d35676e09ea49bd69917d') in 0.020003 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 17.prefab
-  artifactKey: Guid(522b48afe110447e8b6c11906f9c1c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 17.prefab using Guid(522b48afe110447e8b6c11906f9c1c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7960a82a6aab449bb303f8ca8812ffed') in 0.023334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 30.prefab
-  artifactKey: Guid(c15545ad789054b45b373be359259cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 30.prefab using Guid(c15545ad789054b45b373be359259cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3816647feca3e954a6282c5102cc5e07') in 0.032819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.857002 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 43.prefab
-  artifactKey: Guid(29e642b4e7f634c36918e7bfbd08e8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Prefabs/Body Type 43.prefab using Guid(29e642b4e7f634c36918e7bfbd08e8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7716a5d57a2dccd9d5bffacb6d3263b3') in 0.016823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.196783 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 1.fbx
-  artifactKey: Guid(44ec4a9a93f9c4255bc53685a5f61b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 1.fbx using Guid(44ec4a9a93f9c4255bc53685a5f61b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6bedc1bf5710a3d8414114ceaf52b9') in 0.070867 seconds 
+  path: Assets/ObstacleCoursePack/Prefabs/MovableObs.prefab
+  artifactKey: Guid(1d998f3b2007ad14c900d3cecab26ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ObstacleCoursePack/Prefabs/MovableObs.prefab using Guid(1d998f3b2007ad14c900d3cecab26ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a57b515ebd044e378fd988befdc9c6') in 0.020223 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 27.fbx
-  artifactKey: Guid(57da727fdeac14de1a1be328394e0b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 27.fbx using Guid(57da727fdeac14de1a1be328394e0b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f66eaa9ade17285165bcae2147ea962') in 0.275981 seconds 
+  path: Assets/ObstacleCoursePack/Prefabs/CheckPoint.prefab
+  artifactKey: Guid(04400a104b4c4574ab6d4419858e994b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ObstacleCoursePack/Prefabs/CheckPoint.prefab using Guid(04400a104b4c4574ab6d4419858e994b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1d36d4cec583b734d671859cb70c50') in 0.017281 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 10_1.fbx
-  artifactKey: Guid(cdb9a1e25b0fc44dd8d269bb1e0aaf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 10_1.fbx using Guid(cdb9a1e25b0fc44dd8d269bb1e0aaf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed24aaaeb6e0996b578a85f2fd554d4') in 0.037012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 23.fbx
-  artifactKey: Guid(17e40ec42b40f42c8a1c282f764312be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 23.fbx using Guid(17e40ec42b40f42c8a1c282f764312be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e954d9450edd0569b7c8e6fcae2a3c') in 0.034168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 5.fbx
-  artifactKey: Guid(6dc794c09d21a41f8b9218b8ac354b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 5.fbx using Guid(6dc794c09d21a41f8b9218b8ac354b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76da2ebb17e53470d034064a555135a2') in 0.037893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 29.fbx
-  artifactKey: Guid(ab783b30921084a25bb5f8fa6164a169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 29.fbx using Guid(ab783b30921084a25bb5f8fa6164a169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18672043cb89b119410a50518d3e4fe1') in 0.214348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 30.fbx
-  artifactKey: Guid(af794188c82d343cca34ee9e081dd278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 30.fbx using Guid(af794188c82d343cca34ee9e081dd278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26da44c87d4ab9e6bea9b0b56d214250') in 0.037667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 31.fbx
-  artifactKey: Guid(f03ba8378639d467d90f154ea75f70ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 31.fbx using Guid(f03ba8378639d467d90f154ea75f70ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9bc8b120cac566b3daa01638cfc33c') in 0.035482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 3.fbx
-  artifactKey: Guid(25eb36a0eda674f33a7cd9e5c7dc24b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 3.fbx using Guid(25eb36a0eda674f33a7cd9e5c7dc24b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8ba23636794b421b9d2651a2a88ec7') in 0.033593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 21.fbx
-  artifactKey: Guid(dd0d8932e4b804032b9b619fb6eeab59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 21.fbx using Guid(dd0d8932e4b804032b9b619fb6eeab59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea08260f476f0692e456a5a3a492d43') in 0.033742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 32.fbx
-  artifactKey: Guid(d9d6522b55a834c4a8751dd3f1ae9cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 32.fbx using Guid(d9d6522b55a834c4a8751dd3f1ae9cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2423c1dd8e0e3fcdd9f21c18869d224f') in 0.039615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.136592 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 37.fbx
-  artifactKey: Guid(b2e82fcb8c9324117b51efefaa686845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 37.fbx using Guid(b2e82fcb8c9324117b51efefaa686845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0586701259c969777b9c67fced70e74b') in 0.040597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 39.fbx
-  artifactKey: Guid(e4984e3410e93483297308d96726ee1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Models/Body Type 39.fbx using Guid(e4984e3410e93483297308d96726ee1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091ebc6fb085cb069bcd5d31a6a3c6e6') in 0.035410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.597879 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Materials/Character Material Green.mat
-  artifactKey: Guid(3c6281391a1a74625824641f4362c6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Materials/Character Material Green.mat using Guid(3c6281391a1a74625824641f4362c6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22df4b48fb72be3cb7de296e1e161044') in 0.024338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Materials/Character Material White.mat
-  artifactKey: Guid(8358076e344e04b819db7298113d1cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mighty_handful/Hyper-Casual Characters (43 BodyTypes)/Materials/Character Material White.mat using Guid(8358076e344e04b819db7298113d1cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73202dcee03ae865aa7ecfeef1e98a03') in 0.017595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.736446 seconds.
-  path: Assets/Sprites/UI/Failed-Button.png
-  artifactKey: Guid(f807b356d8274f04a924403a3768065d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI/Failed-Button.png using Guid(f807b356d8274f04a924403a3768065d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce194f7d9f11d45a1890d45b13a54a78') in 0.054945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/UI/Level-Passed-Ui-1.png
-  artifactKey: Guid(b7199353847461c4a8962e86bc124854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI/Level-Passed-Ui-1.png using Guid(b7199353847461c4a8962e86bc124854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7761bb1000d7171b91acc853f10e1e0a') in 0.058265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/UI/pngwing.com.png
-  artifactKey: Guid(70b3a30e1e926484e910cde18d19afbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI/pngwing.com.png using Guid(70b3a30e1e926484e910cde18d19afbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a208d15e0587dc4f7f785ce6d47966') in 0.045474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/UI/Star-1.png
-  artifactKey: Guid(d8c64d88641ef4b4985c7c0cd0ec3a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI/Star-1.png using Guid(d8c64d88641ef4b4985c7c0cd0ec3a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17d0aa56e8ece7b76c9cde1eddc02f4') in 0.025140 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/ObstacleCoursePack/Prefabs/RotationPlat.prefab
+  artifactKey: Guid(a70841853b0e99545a7dc761ea9def4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ObstacleCoursePack/Prefabs/RotationPlat.prefab using Guid(a70841853b0e99545a7dc761ea9def4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f09f09eb046d5ca804aba16715d7dc') in 0.020105 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005800 seconds.
+Registered in 0.007148 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 69.19 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.400 seconds
+- Completed reload, in  1.277 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1400ms)
-		BeginReloadAssembly (229ms)
+	ReloadAssembly (1277ms)
+		BeginReloadAssembly (163ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (997ms)
-			LoadAssemblies (148ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (984ms)
+			LoadAssemblies (110ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (301ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (461ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (491ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (69ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (244ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2002 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 121 unused Assets / (25.2 KB). Loaded Objects now: 2762.
-Memory consumption went from 125.7 MB to 125.7 MB.
-Total: 2.304800 ms (FindLiveObjects: 0.220500 ms CreateObjectMapping: 0.098600 ms MarkObjects: 1.946000 ms  DeleteObjects: 0.039100 ms)
+Unloading 20 unused Assets / (25.8 KB). Loaded Objects now: 2507.
+Memory consumption went from 87.3 MB to 87.3 MB.
+Total: 3.090900 ms (FindLiveObjects: 0.208200 ms CreateObjectMapping: 0.192400 ms MarkObjects: 2.668500 ms  DeleteObjects: 0.020600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -489,7 +255,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
