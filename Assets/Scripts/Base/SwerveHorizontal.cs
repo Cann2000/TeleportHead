@@ -13,7 +13,7 @@ public class SwerveHorizontal : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            Horizontal += Speed * SimpleInput.GetAxis("Mouse X");
+            Horizontal += Speed * Input.GetAxis("Mouse X");
 
             Horizontal = Mathf.Clamp(Horizontal, -ClampValue, ClampValue);
 

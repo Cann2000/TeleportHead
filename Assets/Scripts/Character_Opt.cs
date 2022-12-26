@@ -20,8 +20,8 @@ public class Character_Opt : MonoBehaviour
     {
         anim = GetComponent<Animator>();
 
-        CameraOpt.Instance.CamStartPos();
-        CameraOpt.Instance.CameraFowUpdateDown();
+        CameraOpt.instance.CamStartPos();
+        CameraOpt.instance.CameraFowUpdateDown();
     }
 
     void Update()
@@ -37,7 +37,7 @@ public class Character_Opt : MonoBehaviour
 
             if (!FocusAnimEnd)
             {
-                CameraOpt.Instance.CameraFowUpdateDown();
+                CameraOpt.instance.CameraFowUpdateDown();
 
             }
         }
@@ -78,7 +78,7 @@ public class Character_Opt : MonoBehaviour
         }
         if (collision.transform.CompareTag("FinishPoint"))
         {
-            CameraOpt.Instance.Invoke(nameof(CameraOpt.Instance.LevelTrue), 2);
+            CameraOpt.instance.Invoke(nameof(CameraOpt.instance.LevelTrue), 2);
             Finish = true;
             Physics.gravity = new Vector3(0, -10, 0);
         }

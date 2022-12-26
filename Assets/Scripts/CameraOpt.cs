@@ -2,14 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraOpt : Singleton<CameraOpt>
+public class CameraOpt : MonoBehaviour
 {
+    public static CameraOpt instance;
 
     public bool FocusAnimEnd;
 
     Camera cam;
     float TimeLine = 0.0f;
 
+    private void Awake()
+    {
+        if (instance == null)
+            instance = this;
+        else
+            Destroy(this);
+    }
     private void Start()
     {
         cam = Camera.main;

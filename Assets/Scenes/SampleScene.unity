@@ -17189,17 +17189,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a47f546fc70ec8428172694e78e4288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  handleRange: 1
-  deadZone: 0
-  axisOptions: 0
-  snapX: 0
-  snapY: 0
-  background: {fileID: 322455282157671823}
-  handle: {fileID: 322455280794726293}
-  baseRect: {fileID: 0}
-  canvas: {fileID: 0}
-  cam: {fileID: 0}
-  input: {x: 0, y: 0}
 --- !u!114 &322455282157671809
 MonoBehaviour:
   m_ObjectHideFlags: 0
