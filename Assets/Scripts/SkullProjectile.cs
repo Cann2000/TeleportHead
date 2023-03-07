@@ -62,7 +62,7 @@ public class SkullProjectile : MonoBehaviour
 
         if (TouchedTheGround && !characterOpt.Finish)
         {
-            if (rb.velocity.magnitude < 20 && rb.velocity.magnitude > 0.1f)
+            if (rb.velocity.magnitude < 18 && rb.velocity.magnitude > 0.1f)
             {
 
                 rb.angularVelocity = Vector3.zero;
@@ -254,7 +254,7 @@ public class SkullProjectile : MonoBehaviour
             TouchedTheGround = true;
             CharacterRot = collision.transform.localRotation;
         }
-        if (collision.transform.CompareTag("lav"))
+        if (collision.transform.CompareTag("FailArea"))
         {
             GameManager.Instance.LevelState(false);
             Destroy(gameObject);

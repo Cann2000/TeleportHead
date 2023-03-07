@@ -70,7 +70,7 @@ public class Character_Opt : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.CompareTag("lav"))
+        if (collision.transform.CompareTag("FailArea"))
         {
             GameManager.Instance.LevelState(false);
             Destroy(gameObject);
@@ -78,7 +78,7 @@ public class Character_Opt : MonoBehaviour
         }
         if (collision.transform.CompareTag("FinishPoint"))
         {
-            CameraOpt.instance.Invoke(nameof(CameraOpt.instance.LevelTrue), 2);
+            CameraOpt.instance.Invoke(nameof(CameraOpt.instance.LevelTrue), 1);
             Finish = true;
             Physics.gravity = new Vector3(0, -10, 0);
         }
